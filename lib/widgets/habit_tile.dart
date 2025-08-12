@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
-import 'package:flutter/services.dart'; // untuk getaran
+import 'package:audioplayers/audioplayers.dart'; //ini untuk suara
+import 'package:flutter/services.dart'; // inimah untuk getaran
 
 class HabitTile extends StatefulWidget {
   final String habit;
@@ -34,7 +34,7 @@ class _HabitTileState extends State<HabitTile> {
   @override
   void didUpdateWidget(covariant HabitTile oldWidget) {
     super.didUpdateWidget(oldWidget);
-    // Jika status berubah dari belum selesai → selesai
+    // Jika status berubah dari belum selesai jadii selesai
     if (!oldWidget.completed && widget.completed) {
       _playDing();
       _vibrate();
