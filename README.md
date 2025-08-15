@@ -84,7 +84,8 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ## 🖼 Screenshots
 
-Cooming soon
+![Screenshot_20250815_110523](https://github.com/user-attachments/assets/8c5b86af-83bd-454b-a895-62b131573608)
+
 
 ---
 
